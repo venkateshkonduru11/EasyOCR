@@ -300,7 +300,7 @@ class Reader(object):
 
     def recognize(self, img_cv_grey, horizontal_list=None, free_list=None,\
                   decoder = 'greedy', beamWidth= 5, batch_size = 1,\
-                  workers = 0, allowlist = None, blocklist = None, detail = 1,\
+                  workers = 0, allowlist = None, blocklist = 'abcdefghijklmnopqrstuvwxyz', detail = 1,\
                   rotation_info = None,paragraph = False,\
                   contrast_ths = 0.1,adjust_contrast = 0.5, filter_ths = 0.003,\
                   y_ths = 0.5, x_ths = 1.0, reformat=True, output_format='standard'):
